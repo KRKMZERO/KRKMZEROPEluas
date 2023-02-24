@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="instant death Note2.png">
+	<SubTexture name="red0000" x="0" y="0" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="red0001" x="154" y="0" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="red0002" x="308" y="0" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="red0003" x="0" y="157" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="red0004" x="154" y="157" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="red0005" x="308" y="157" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="blue0000" x="462" y="0" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="blue0001" x="462" y="157" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="blue0002" x="0" y="314" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="blue0003" x="154" y="314" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="blue0004" x="308" y="314" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="blue0005" x="462" y="314" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="green0000" x="616" y="0" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="green0001" x="616" y="157" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="green0002" x="616" y="314" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="green0003" x="0" y="471" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="green0004" x="154" y="471" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="green0005" x="308" y="471" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="purple0000" x="462" y="471" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="purple0001" x="616" y="471" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="purple0002" x="770" y="0" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="purple0003" x="770" y="157" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="purple0004" x="770" y="314" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="purple0005" x="770" y="471" width="154" height="157" frameX="0" frameY="0" frameWidth="154" frameHeight="157" />
+	<SubTexture name="blue hold end0000" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="blue hold piece0000" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="green hold end0000" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="green hold piece0000" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="pruple hold end0000" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="purple hold piece0000" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="red hold end0000" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="red hold piece0000" x="0" y="0" width="1" height="1"/>
+
+</TextureAtlas>

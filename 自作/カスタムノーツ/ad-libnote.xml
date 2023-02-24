@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ad-libnote.png">
+<SubTexture name="ad-libnote_assets red0000" x="0" y="0" width="125" height="150" frameX="-14" frameY="-1" frameWidth="150" frameHeight="150" />
+<SubTexture name="ad-libnote_assets purple0000" x="0" y="0" width="125" height="150" frameX="-14" frameY="-1" frameWidth="150" frameHeight="150" />
+<SubTexture name="ad-libnote_assets green0000" x="0" y="0" width="125" height="150" frameX="-14" frameY="-1" frameWidth="150" frameHeight="150" />
+<SubTexture name="ad-libnote_assets blue0000" x="0" y="0" width="125" height="150" frameX="-14" frameY="-1" frameWidth="150" frameHeight="150" />
+<SubTexture name="ad-libnote_assets red hold piece0000" x="125" y="66" width="53" height="46" frameX="0" frameY="0" frameWidth="51" frameHeight="44" />
+<SubTexture name="ad-libnote_assets purple hold piece0000" x="125" y="66" width="53" height="46" frameX="0" frameY="0" frameWidth="51" frameHeight="44" />
+<SubTexture name="ad-libnote_assets green hold piece0000" x="125" y="66" width="53" height="46" frameX="0" frameY="0" frameWidth="51" frameHeight="44" />
+<SubTexture name="ad-libnote_assets blue hold piece0000" x="125" y="66" width="53" height="46" frameX="0" frameY="0" frameWidth="51" frameHeight="44" />
+<SubTexture name="ad-libnote_assets red hold end0000" x="125" y="0" width="53" height="66" frameX="0" frameY="0" frameWidth="51" frameHeight="64" />
+<SubTexture name="ad-libnote_assets pruple hold end0000" x="125" y="0" width="53" height="66" frameX="0" frameY="0" frameWidth="51" frameHeight="64" />
+<SubTexture name="ad-libnote_assets green hold end0000" x="125" y="0" width="53" height="66" frameX="0" frameY="0" frameWidth="51" frameHeight="64" />
+<SubTexture name="ad-libnote_assets blue hold end0000" x="125" y="0" width="53" height="66" frameX="0" frameY="0" frameWidth="51" frameHeight="64" />
+</TextureAtlas>
