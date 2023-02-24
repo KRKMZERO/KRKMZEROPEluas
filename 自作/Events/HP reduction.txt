@@ -1,0 +1,6 @@
+Value 1 Forced HP reduction 
+Specify 0.000 to 2.000 to force HP reduction
+
+Value 2 Forced HP set
+Specifying a value between 0.000 and 2.000 will 
+force it to be set to that percentage of HP.

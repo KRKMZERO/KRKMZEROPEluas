@@ -1,0 +1,5 @@
+Sets the transparency of camHUD.
+Time setting is also available.
+
+Value 1: How transparent is it
+Value 2: How long it will take or not
