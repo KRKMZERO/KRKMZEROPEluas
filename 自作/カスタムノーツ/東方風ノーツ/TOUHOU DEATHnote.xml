@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="TOUHOU DEATHnote.png">
+<SubTexture name="blue0000" x="0" y="0" width="151" height="151" frameX="-1" frameY="-1" frameWidth="150" frameHeight="150" />
+<SubTexture name="green0000" x="0" y="0" width="151" height="151" frameX="-1" frameY="-1" frameWidth="150" frameHeight="150" />
+<SubTexture name="purple0000" x="0" y="0" width="151" height="151" frameX="-1" frameY="-1" frameWidth="150" frameHeight="150" />
+<SubTexture name="red0000" x="0" y="0" width="151" height="151" frameX="-1" frameY="-1" frameWidth="150" frameHeight="150" />
+<SubTexture name="blue hold end0000" x="151" y="0" width="3" height="3" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+<SubTexture name="blue hold piece0000" x="151" y="0" width="3" height="3" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+<SubTexture name="green hold end0000" x="151" y="0" width="3" height="3" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+<SubTexture name="green hold piece0000" x="151" y="0" width="3" height="3" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+<SubTexture name="pruple end hold0000" x="151" y="0" width="3" height="3" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+<SubTexture name="purple hold piece0000" x="151" y="0" width="3" height="3" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+<SubTexture name="red hold end0000" x="151" y="0" width="3" height="3" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+<SubTexture name="red hold piece0000" x="151" y="0" width="3" height="3" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+</TextureAtlas>
