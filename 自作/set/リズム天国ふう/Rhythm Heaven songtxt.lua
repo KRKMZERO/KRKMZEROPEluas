@@ -1,16 +1,3 @@
---[[
-screenWidth
-screenHeight
-getScreenPositionX
-screenCenter()
-score
-scoreZoom
-scaleObject
-setObjectOrder
-setObjectCamera
-scaleLuaSprite
-setProperty('iconP2.flipX', true)
-]]
 function onCreate()
 	local MODCLAR = "MOD by bb-panzu"
 
@@ -101,7 +88,3 @@ function onTweenCompleted(tag)
 
 	end
 end
-
-
---doTweenX('SongnemeXtween', 'SongnemeText', -500, 2.5, 'QuintIn')--QuintIn
---doTweenY('SongnemeVtween', 'SongnemeText', 5, 2.5, 'QuintIn')--CircIn
