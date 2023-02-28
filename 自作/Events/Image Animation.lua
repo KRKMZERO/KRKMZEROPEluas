@@ -11,12 +11,12 @@ end
 
 function onTimerCompleted(tag, loops, loopsleft)
 	if tag == 'wait' then
-		doTweenAlpha('byebye', 'image', 0, 0.3, 'linear');
+		doTweenAlpha('byebye', 'imageAni', 0, 0.3, 'linear');
 	end
 end
 
 function onTweenCompleted(tag)
 	if tag == 'byebye' then
-		removeLuaSprite('image', true);
+		removeLuaSprite('imageAni', true);
 	end
 end
