@@ -43,7 +43,7 @@ function onCreatePost()--特殊なUI変更
 	
 	--UIの後ろを暗くするやつ
 	makeLuaSprite('UIBack','',ZERO_UIx - 10,ZERO_UIy - 10)
-	makeGraphic('UIBack', 350, 60, '000000')
+	makeGraphic('UIBack', 350, 80, '000000')
 	addLuaSprite('UIBack')
 	setProperty('UIBack.alpha', 0.5)
 	setObjectCamera('UIBack', 'hud')
@@ -58,18 +58,7 @@ function onCreatePost()--特殊なUI変更
 	setProperty('player.antialiasing', true)
 	setProperty('UIBack.antialiasing', true)
 
-	addHaxeLibrary("Sys")
-	userName = runHaxeCode([[
-	  var envs = Sys.environment();
-	  if (envs.exists("USERNAME")) {
-	      return envs["USERNAME"];
-	  }
-	
-	  if (envs.exists("USER")) {
-	      return envs["USER"];
-	  }    
-	  return null;
-	]])
+	userName = (buildTarget == "windows" and os.getenv("USERNAME") or os.getenv("USER"))
 	setTextFont('SongName','lunchds.ttf')--使用フォントです
 	setTextFont('misses','lunchds.ttf')--使用フォントです
 	setTextFont('player','lunchds.ttf')--使用フォントです
