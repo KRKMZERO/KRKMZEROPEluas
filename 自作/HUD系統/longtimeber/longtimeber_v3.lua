@@ -19,7 +19,7 @@ function onCreatePost()
 	--deletion TimeText
 	setGraphicSize("healthBar", 1280, 20)
 	screenCenter("healthBar")
-	setProperty("healthBar.y", 680)
+	setProperty("healthBar.y", 80)
 	setProperty("healthBar.visible" , true)
 	setProperty("healthBarBG.visible" , false)
 	setProperty("healthBar.numDivisions", 200)

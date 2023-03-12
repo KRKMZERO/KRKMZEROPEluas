@@ -35,9 +35,8 @@ function onCreatePost()
     setObjectCamera('timeBarFront','other')
     addLuaSprite('timeBarFront')
 
-	doTweenX('siconP1ScaleTweenX', 'iconP1.scale', 0.6, 0.01, 'elasticInOut')
-
-	doTweenX('siconP2ScaleTweenX', 'iconP2.scale', 0.6, 0.01, 'elasticInOut')
+	doTweenX('siconP1ScaleTweenX', 'iconP1.scale', 0.7, 0.01, 'elasticInOut')
+	doTweenX('siconP2ScaleTweenX', 'iconP2.scale', 0.7, 0.01, 'elasticInOut')
 end
 
 function onUpdate()
@@ -50,9 +49,6 @@ function onUpdatePost()
 
 	setProperty('iconP1.y', 600)
 	setProperty('iconP2.y', 600)
-
-	--scaleObject('iconP2', 0.7, 0.7);
-	--scaleObject('iconP1', 0.7, 0.7);
 
 	setObjectCamera('iconP1','other')
 	setObjectCamera('iconP2','other')
@@ -72,10 +68,12 @@ function onUpdatePost()
 end
 
 function onBeatHit()
-	doTweenX('iconP1ScaleTweenX', 'iconP1.scale', 0.6, 0.5, 'elasticInOut')
-
-	doTweenX('iconP2ScaleTweenX', 'iconP2.scale', 0.6, 0.5, 'elasticInOut')
-
 	scaleObject('iconP2', 0.7, 0.7);
 	scaleObject('iconP1', 0.7, 0.7);
+
+	cancelTween('iconP1ScaleTweenX')
+	cancelTween('iconP2ScaleTweenX')
+
+	doTweenX('iconP1ScaleTweenX', 'iconP1.scale', 0.5, 1, 'elasticOut')--'elasticInOut'
+	doTweenX('iconP2ScaleTweenX', 'iconP2.scale', 0.5, 1, 'elasticOut')
 end

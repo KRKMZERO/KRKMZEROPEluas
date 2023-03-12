@@ -36,9 +36,6 @@ function onUpdatePost()
 	setProperty('iconP1.y', 600)
 	setProperty('iconP2.y', 600)
 
-	--scaleObject('iconP2', 0.7, 0.7);
-	--scaleObject('iconP1', 0.7, 0.7);
-
 	setObjectCamera('iconP1','other')
 	setObjectCamera('iconP2','other')
 
@@ -47,13 +44,11 @@ function onUpdatePost()
 end
 
 function onBeatHit()
-	--scaleObject('iconP2', 0.8, 0.8);
-	--scaleObject('iconP1', 0.8, 0.8);
-	doTweenX('iconP1ScaleTweenX', 'iconP1.scale', 0.6, 0.5, 'elasticInOut')
-	--doTweenY('iconP1ScaleTweenY', 'iconP1.scale', 0.6, 1, 'elasticInOut')
+	cancelTween('iconP1ScaleTweenX')
+	cancelTween('iconP2ScaleTweenX')
 
-	doTweenX('iconP2ScaleTweenX', 'iconP2.scale', 0.6, 0.5, 'elasticInOut')
-	--doTweenY('iconP2ScaleTweenY', 'iconP2.scale', 0.6, 1, 'elasticInOut')
+	doTweenX('iconP1ScaleTweenX', 'iconP1.scale', 0.6, 0.5, 'elasticOut')
+	doTweenX('iconP2ScaleTweenX', 'iconP2.scale', 0.6, 0.5, 'elasticOut')
 
 	scaleObject('iconP2', 0.7, 0.7);
 	scaleObject('iconP1', 0.7, 0.7);
