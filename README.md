@@ -10,3 +10,6 @@
 ### 一部のlua,Eventについて。
 特にspeed noteですが多用するとカジュアルプレイヤーが嫌う恐れがあるため
 使用にご注意してくれると嬉しいです
+
+ダウンロード
+https://github.com/KRKMZERO/KRKMZEROPEluas/archive/refs/heads/main.zip
