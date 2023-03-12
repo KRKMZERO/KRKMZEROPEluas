@@ -1,12 +1,12 @@
-Songinfotxt = [[
-Song candy
-MOD by bb-panzu
-
-Player
-黒髪零
-]]
-
 function onCreate()
+
+	Songinfotxt = [[
+	Song: ]]..songName..[[ 
+	MOD by bb-panzu
+
+	Player
+	黒髪零
+	]]
 
 	makeLuaText('Songinfotxt',Songinfotxt, 1280, -305, 40)
 	setTextAlignment('Songinfotxt', 'left')
