@@ -54,21 +54,23 @@ function onEndSong()
 		if getProperty('ratingPercent') == 1 then
 			setTextString('FULLCOMTXT', 'PERFECT COMBO!!');
 		end
-		if not checked then
+		if misses >= 1 and not checked then
 			doTweenX('INFOTEXTTweenX', 'INFOTEXT', 10, 1.5, 'elasticInOut')
 			doTweenX('INFOBackTweenX', 'INFOBack', 10, 1.5, 'elasticInOut')
 			
 			checked = true
-			runTimer('SONGendtime', 3, 1)
+			runTimer('SONGendtime', 4, 1)
 			return Function_Stop
-		end
-		if misses <= 0 and not checked then
+		elseif misses <= 0 and not checked then
 			--do something
+			doTweenX('INFOTEXTTweenX', 'INFOTEXT', 10, 1.5, 'elasticInOut')
+			doTweenX('INFOBackTweenX', 'INFOBack', 10, 1.5, 'elasticInOut')
+
 			checked = true
 			doTweenAlpha('FULLCOMTXTTween', 'FULLCOMTXT', 1, 1, linear)
 			playSound('confirmMenu', 0.9)
 			runTimer('heytime', 2, 1)
-			runTimer('SONGendtime', 3, 1)
+			runTimer('SONGendtime', 4, 1)
 			return Function_Stop
 		end
 	return Function_Continue
