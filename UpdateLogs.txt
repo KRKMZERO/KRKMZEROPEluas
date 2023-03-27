@@ -1,0 +1,19 @@
+2023年03月28日
+[ノーツ]
+SingNotes.luaの修正
+SingNotesFocus-alt.luaの追加
+[ノーツ/Bearnotes]
+BeatNotes alt.luaの修正
+BeatNotes alt2.luaの追加
+[HUD系統/演出あり]
+simple-ver2.luaの追加
+[特殊/ノーツ関係]
+note alt.luaの追加
+notes-lights.luaの追加
+雰囲気合わせにうってつけ！
+[コンボ]
+COMBOUIlite-alt.luaの追加
+COMBOUIlite-alt2.luaの追加
+COMBOUIlite-alt3.luaの追加
+数字が進むごとに演出が変化
+それと同時にダウンスクロールなどと軸合わせをしてくれる
