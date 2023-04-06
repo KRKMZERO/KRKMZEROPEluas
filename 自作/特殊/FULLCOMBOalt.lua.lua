@@ -1,4 +1,4 @@
-
+--動画撮影用に使ってるカットしやすくするためのluaです
 function onCreate()
 	makeLuaText('FULLCOMTXT', 'FULL COMBO!!', 1210, 'x', 'y')
 	setObjectCamera('FULLCOMTXT', 'hud')
@@ -19,8 +19,8 @@ function onCreate()
 	setProperty('INFOTEXT.color', getColorFromHex('FFFFFF'))--字体の色です
 	setTextBorder('INFOTEXT','1','000000')--縁取りの色です
 
-	makeLuaSprite('INFOBack','',-300,screenHeight)
-	makeGraphic('INFOBack', 260,260, '000000')
+	makeLuaSprite('INFOBack','',-300,0)
+	makeGraphic('INFOBack', 260,screenHeight, '000000')
 	addLuaSprite('INFOBack')
 	setProperty('INFOBack.alpha', 0.5)
 	
