@@ -1,7 +1,12 @@
 function onEvent(name, value1, value2)
     if name == 'Left_Lyrics' then
-        setTextString('left_lyric', value1)
-        setTextColor('left_lyric', value2)
+
+		setTextString('left_lyric', value1)
+		if value2 == '' then
+			setTextColor('left_lyric', 'FFFFFF')
+		else
+			setTextColor('left_lyric', value2)
+		end
     end
 end
 
