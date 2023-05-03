@@ -1,13 +1,3 @@
---lua credit
---
---Psych Engine Lyric script
---https://gamebanana.com/tools/10419
---
---Kane_Sucks
---https://gamebanana.com/members/1807875
---
---EDIT THE VALUE IN "setTextSize" IN THE .LUA FILE TO CHANGE TEXT SIZE.
---
 function onEvent(name, value1, value2)
     if name == 'Lyrics' then
 
