@@ -13,7 +13,7 @@
 - [公式PsychEngine(gamebanana)](https://gamebanana.com/mods/309789)
 - [公式PsychEngine(github)](https://github.com/ShadowMario/FNF-PsychEngine/releases)
 - [公式JPsychEngine(GAMEJOLT)](https://gamejolt.com/games/JPsych-Engine/726750)
-
+---
 # KRKMZEROPEluas
 黒髪零が作ったFriday night funkin PsychEngine & JPsychEngineに使えるluaをまとめたものです
   
