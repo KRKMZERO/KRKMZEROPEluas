@@ -4,4 +4,5 @@ function onCreate()
 	setProperty('cameraZoom', 1.05)
 	setProperty('cameraSpeed',2)
 	--setProperty("defaultCamZoom",1)
+	setProperty('songSpeed',1)
 end
