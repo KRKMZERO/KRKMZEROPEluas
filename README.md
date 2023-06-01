@@ -23,3 +23,5 @@
 ---
 #### download
 https://github.com/KRKMZERO/KRKMZEROPEluas/archive/refs/heads/main.zip
+#### 更新履歴
+https://github.com/KRKMZERO/KRKMZEROPEluas/discussions
