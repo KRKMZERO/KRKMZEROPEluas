@@ -48,7 +48,7 @@ local ys = {
 } 
 C = 1
 function onStepHit()
-   if getRandomInt(1,10) == 1 then
+   if math.random(1,10) == 1 then
       --debugPrint('OK')
       C = C + 1
 	   makeLuaText('niconicocoments'..C,niconicoTexts[getRandomInt(1, #niconicoTexts)],500,screenWidth,ys[getRandomInt(1, #ys)]);
