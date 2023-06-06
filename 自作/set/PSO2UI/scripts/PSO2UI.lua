@@ -125,6 +125,8 @@ function goodNoteHit(membersIndex, noteData, noteType, isSustainNote)
 			PP = PP + 1
 		end
 	end
+	IFPPADD = false
+	runTimer('waitPP', 0.25, 1)
 end
 function onSongStart()
     runTimer('PPADD',0.15,0)
@@ -133,4 +135,9 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	if tag =='PPADD' and PP < MAXPP then
 		PP = PP + 1
 	end
+	if tag == 'waitPP' then
+		IFPPADD = true
+		--debugPrint('OK')
+	end
+end
 end
