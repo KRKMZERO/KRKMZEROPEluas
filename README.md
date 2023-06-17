@@ -24,5 +24,9 @@
 #### download
 https://github.com/KRKMZERO/KRKMZEROPEluas/archive/refs/heads/main.zip
 #### 更新履歴
-[更新内容を見る](https://github.com/KRKMZERO/KRKMZEROPEluas/discussions/categories/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E5%86%85%E5%AE%B9)
+[更新内容を見る](https://github.com/KRKMZERO/KRKMZEROPEluas/discussions/categories/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E5%86%85%E5%AE%B9)  
+  
+# リンク
+Shartizes luas
+_links_
 
