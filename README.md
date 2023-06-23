@@ -3,7 +3,7 @@
 - [公式PsychEngine(github)](https://github.com/ShadowMario/FNF-PsychEngine/releases)
 - [公式JPsychEngine(GAMEJOLT)](https://gamejolt.com/games/JPsych-Engine/726750)
 - by わらびもちぃ様
-- [公式PsychEngine-JP(GAMEJOLT)](https://gamejolt.com/games/PsychEngine-JP/795482)
+- [公式PsychEngine-JP(GAMEJOLT)](https://gamejolt.com/games/PsychEngine-JP/795482)  
 ‐ by Shundesu様
 ---
 # KRKMZEROPEluas
