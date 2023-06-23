@@ -8,7 +8,7 @@
 ---
 # KRKMZEROPEluas
 黒髪零が作ったFriday night funkin PsychEngine & JPsychEngineに使えるluaをまとめたものです  
-* PEと互換性があるエンジン * なら全般で使えます！  
+PEと互換性があるエンジン なら全般で使えます！  
 ![画像1](https://github.com/KRKMZERO/KRKMZEROPEluas/blob/main/credit%E8%A8%98%E8%BC%89%E3%81%AE%E5%A0%B4%E5%90%88%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E3%82%92/kurokamizero.png "黒髪零")
   
 
