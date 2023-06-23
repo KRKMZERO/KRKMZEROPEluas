@@ -4,7 +4,7 @@
 - [公式JPsychEngine(GAMEJOLT)](https://gamejolt.com/games/JPsych-Engine/726750)
 - by わらびもちぃ様
 - [公式PsychEngine-JP(GAMEJOLT)](https://gamejolt.com/games/PsychEngine-JP/795482)  
-‐ by Shundesu様
+- by Shundesu様
 ---
 # KRKMZEROPEluas
 黒髪零が作ったFriday night funkin PsychEngine & JPsychEngineに使えるluaをまとめたものです  
