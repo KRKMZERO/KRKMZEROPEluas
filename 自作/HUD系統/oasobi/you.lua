@@ -20,7 +20,7 @@ local userName = ""
 function onCreatePost()--特殊なUI変更
 
 	--UI表示位置（DOWNSCROLLでも位置はかわりません）
-	makeLuaText('SongName','',500,ZERO_UIx,ZERO_UIy); -- x y values go on the second and third 0's
+	makeLuaText('SongName','Song:'..getProperty(songName),0,ZERO_UIx,ZERO_UIy); -- x y values go on the second and third 0's
 	setTextAlignment("SongName", "left")
 	setTextSize('SongName', 20);
 	addLuaText('SongName')
@@ -43,7 +43,7 @@ function onCreatePost()--特殊なUI変更
 	
 	--UIの後ろを暗くするやつ
 	makeLuaSprite('UIBack','',ZERO_UIx - 10,ZERO_UIy - 10)
-	makeGraphic('UIBack', 350, 80, '000000')
+	makeGraphic('UIBack', getProperty('SongName.width') + 20, 80, '000000')
 	addLuaSprite('UIBack')
 	setProperty('UIBack.alpha', 0.5)
 	setObjectCamera('UIBack', 'hud')
@@ -62,7 +62,8 @@ function onCreatePost()--特殊なUI変更
 end
 
 function onUpdate()--細かい設定
-	setTextString('SongName', 'Song:'..getProperty(songName));
+	--setGraphicSize('UIBack', getProperty('SongName.width') + 20 ,80)
+	--setTextString('SongName', 'Song:'..getProperty(songName));
 	if getProperty('songMisses') == 0 then
 		setTextString('misses', 'Misses:NoMiss');
 	else
