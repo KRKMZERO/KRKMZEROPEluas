@@ -20,7 +20,7 @@ BorderColor = '000000'
 function onCreatePost()--特殊なUI変更
 
 	--UI表示位置（DOWNSCROLLでも位置はかわりません）
-	makeLuaText('SongName','',500,ZERO_UIx,ZERO_UIy); -- x y values go on the second and third 0's
+	makeLuaText('SongName','Song:'..getProperty(songName),0,ZERO_UIx,ZERO_UIy); -- x y values go on the second and third 0's
 	setTextAlignment("SongName", "left")
 	setTextSize('SongName', 20);
 	addLuaText('SongName')
@@ -33,10 +33,10 @@ function onCreatePost()--特殊なUI変更
 	addLuaText('misses');
 	setProperty('misses.color', getColorFromHex('FFFFFF'))--字体の色です
 	setTextBorder('misses','1',BorderColor)--縁取りの色です
-	
+
 	--UIの後ろを暗くするやつ
 	makeLuaSprite('UIBack','',ZERO_UIx - 10,ZERO_UIy - 10)
-	makeGraphic('UIBack', 350, 60, '000000')
+	makeGraphic('UIBack', getProperty('SongName.width') + 20 , 60, '000000')
 	addLuaSprite('UIBack')
 	setProperty('UIBack.alpha', 0.5)
 	setObjectCamera('UIBack', 'hud')
@@ -58,7 +58,7 @@ function onUpdate()--細かい設定
 		setTextString('misses', 'Misses:'..getProperty('songMisses'));
 	end
 end
-
+-- getTextSize('SongName')
 ----------------------------------
 --おすすめカラーコード一覧
 --FFFFFF　白

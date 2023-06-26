@@ -20,7 +20,7 @@ BorderColor = '000000'
 function onCreatePost()--特殊なUI変更
 
 	--UI表示位置（DOWNSCROLLでも位置はかわりません）
-	makeLuaText('LUAUITEXT','',500,ZERO_UIx,ZERO_UIy); -- x y values go on the second and third 0's
+	makeLuaText('LUAUITEXT','',0,ZERO_UIx,ZERO_UIy); -- x y values go on the second and third 0's
 	setTextAlignment("LUAUITEXT", "left")
 	setTextSize('LUAUITEXT', 20);
 	addLuaText('LUAUITEXT')
@@ -29,22 +29,23 @@ function onCreatePost()--特殊なUI変更
 	
 	--UIの後ろを暗くするやつ
 	makeLuaSprite('UIBack','',ZERO_UIx - 10,ZERO_UIy - 10)
-	makeGraphic('UIBack', 200,380, '000000')
+	makeGraphic('UIBack', 400,400 + 20, '000000')
 	addLuaSprite('UIBack')
 	setProperty('UIBack.alpha', 0.5)
-
 
 	setObjectCamera('LUAUITEXT', 'other')
 	setObjectCamera('UIBack', 'other')
 	--レイヤーセット
-	setObjectOrder('SongName', 10)
+	setObjectOrder('LUAUITEXT', 10)
 	setObjectOrder('UIBack', 9)
 	--アンチエイリアシング
 	setProperty('SongName.antialiasing', true)
 	setProperty('UIBack.antialiasing', true)
 end
-
 function onUpdate()--細かい設定
+	if curStep < 10 then
+		setGraphicSize('UIBack', getProperty('LUAUITEXT.width') + 20,getProperty('LUAUITEXT.height') + 20)
+	end
 	local health = getProperty('health')
 	local RPC = getProperty('ratingPercent')
 	local Acc = math.floor((RPC*100)*100)/100;
@@ -57,15 +58,15 @@ local LUAUI = [[
 Song: ]]..getProperty(songName)..[[ 
 Difficulty: ]]..getProperty('storyDifficultyText')..[[ 
 Accuracy: ]]..math.floor((RPC*100)*100)/100 ..[[% 
+HP: ]]..math.floor((health*50)/1).. [[% 
 Score: ]]..getProperty('songScore')..[[ 
+Combo: ]]..getProperty('combo')..[[ 
+HITs: ]]..getProperty('songHits')..[[ 
 Sick: ]]..getProperty('sicks')..[[ 
 Good: ]]..getProperty('goods')..[[ 
 Bad: ]]..getProperty('bads')..[[ 
 Shit: ]]..getProperty('shits')..[[ 
 Misses: ]]..getProperty('songMisses')..[[ 
-HP: ]]..math.floor((health*50)/1).. [[% 
-HITs: ]]..getProperty('songHits')..[[ 
-Combo: ]]..getProperty('combo')..[[ 
 Time: ]]..timeElapsedFixed .. [[/]] .. timeTotalFixed..[[ 
 ]]
 	setTextString('LUAUITEXT', LUAUI)
