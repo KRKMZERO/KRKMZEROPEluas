@@ -1,0 +1,6 @@
+Value1
+[0] off
+[1] on
+value2
+Time to 0
+If it is not written, it will not stop until value1 is set to [0].
