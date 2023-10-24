@@ -1,7 +1,7 @@
 --Lua coding KuroKamiZERO 黒髪零#2823 
 --You may borrow lua and use it with modifications. by KuroKamiZERO
 Tweenwait = false 
-function onUpdateScore(miss)
+function onUpdate(miss)
 	if downscroll then
 		if Tweenwait == false then
 			if getProperty('health') >= 1.9 then

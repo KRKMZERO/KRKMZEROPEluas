@@ -7,7 +7,7 @@ function onBeatHit()
                         for i =0,7  do
                                 noteTweenAngle('note'..i,i,-10,0.10,'linear')
                         end
-                        if getRandomInt(1,50) == 1 then 
+                        if getRandomBool(2) == true then 
                                 wait = true
                                 for i =0,7  do
                                         noteTweenAngle('notea'..i,i,-360,0.20,'circOut')
@@ -18,7 +18,7 @@ function onBeatHit()
                         for i =0,7  do
                                 noteTweenAngle('note'..i,i,10,0.10,'linear')
                         end
-                        if getRandomInt(1,50) == 1 then 
+                        if getRandomBool(2) == true then 
                                 wait = true
                                 for i =0,7  do
                                         noteTweenAngle('notea'..i,i,360,0.20,'circOut')
